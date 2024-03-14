@@ -77,7 +77,6 @@ public class MonthlyFinances {
 	}
 	//calculate money not spent on rent
 	public static double calcSpentNoRent(ArrayList<Transaction> transactionList) {
-		//FIXME: figure out how to find how many rent payments I completed
 		double rentTotal = 0;
 		double spentNoRent = 0;
 		for(int i = 0; i < Transaction.getNumTransactions(); i++) {
